@@ -1,0 +1,80 @@
+*{
+   margin: 0px;
+    padding: 0px;
+}
+.Box2{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    line-height: 80px;
+}
+.FaPlayCircle{
+    font-size: 30px;
+    margin-left: -11rem;
+   position: relative;
+   top: -9rem;
+    z-index: 9999999;
+}
+
+.imges{
+height: 20rem;
+width: 20rem;
+}
+.Play{
+ visibility: visible;
+}
+.Pause{
+   visibility: hidden;
+ }
+.FaPlayCircle2{
+    font-size: 30px;
+    margin-left: -2rem;
+   position: relative;
+   top: -9rem;
+    z-index: 9999999;
+
+}
+@media screen and (max-width:426px) {
+    .FaPlayCircle{
+        font-size: 20px;
+        margin-left: 15rem;
+       position: relative;
+       top: -1rem;
+        z-index: 9999999;
+    }
+    .imges{
+        height: 3rem;
+        width: 3rem;
+        margin-left: 1rem;
+    }
+    .Box2{
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        line-height: 17px;
+        margin-top: 2rem;
+    }
+    .name{
+       position: relative;
+       top: 20px;
+       left: 5rem;
+    }
+    .singer{
+        position: relative;
+        top: -24px;
+        left: 5rem;
+    }
+    .Box{
+        border: 1px solid #000;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .FaPlayCircle2{
+        font-size: 20px;
+        margin-left: -1.2rem;
+       position: relative;
+       top: -1rem;
+        z-index: 9999999;
+    
+    }
+}
